@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
@@ -49,7 +50,7 @@ function ContactForm() {
         </div>
         <div>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea name="message" rows="3" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>
@@ -58,7 +59,36 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
+
+
+
+
+
+
+
+
   );
 }
 

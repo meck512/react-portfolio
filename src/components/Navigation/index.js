@@ -4,7 +4,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 
-function Header(props) {
+function Navigation(props) {
 
   const {
     activeTab = [],
@@ -37,6 +37,8 @@ function Header(props) {
                 </span>
               </Nav.Link>
             ))}
+
+          
           </Nav>
         </Container>
       </Navbar>
@@ -44,5 +46,5 @@ function Header(props) {
   );
 }
 
-export default Header;
+export default Navigation;
 
