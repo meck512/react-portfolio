@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.8a50d097.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.dee91699.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.dee91699.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7ddafd8b.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7ddafd8b.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/react-portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.d625b9e5.chunk.js": "/react-portfolio/static/js/2.d625b9e5.chunk.js",
+    "static/js/2.d625b9e5.chunk.js.map": "/react-portfolio/static/js/2.d625b9e5.chunk.js.map",
+    "static/js/3.3128dc2d.chunk.js": "/react-portfolio/static/js/3.3128dc2d.chunk.js",
+    "static/js/3.3128dc2d.chunk.js.map": "/react-portfolio/static/js/3.3128dc2d.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/react-portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.8a50d097.chunk.css.map": "/react-portfolio/static/css/main.8a50d097.chunk.css.map",
+    "static/js/2.d625b9e5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d625b9e5.chunk.js.LICENSE.txt",
+    "static/media/20-react-homework-demo-01.gif": "/react-portfolio/static/media/20-react-homework-demo-01.85fc4f50.gif",
+    "static/media/4747499_github_icon.png": "/react-portfolio/static/media/4747499_github_icon.c4136828.png",
+    "static/media/Horiseon-capture.jpg": "/react-portfolio/static/media/Horiseon-capture.3ab9c201.jpg",
+    "static/media/ImpulseConcerts.png": "/react-portfolio/static/media/ImpulseConcerts.18c0b9ad.png",
+    "static/media/Password-generator-capture.jpg": "/react-portfolio/static/media/Password-generator-capture.37cb29f6.jpg",
+    "static/media/Profile.png": "/react-portfolio/static/media/Profile.38cb010d.png",
+    "static/media/ResumeTabBG.jpg": "/react-portfolio/static/media/ResumeTabBG.90443e35.jpg",
+    "static/media/Run-buddy-capture.jpg": "/react-portfolio/static/media/Run-buddy-capture.d990b417.jpg",
+    "static/media/Tash-sultana-capture.jpg": "/react-portfolio/static/media/Tash-sultana-capture.a4e3bb6f.jpg",
+    "static/media/front-page.PNG": "/react-portfolio/static/media/front-page.f4836c7b.PNG",
+    "static/media/linkedinLogo.png": "/react-portfolio/static/media/linkedinLogo.3ed31792.png",
+    "static/media/reactPortScreenShot.PNG": "/react-portfolio/static/media/reactPortScreenShot.b75a0d8a.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ddafd8b.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.d625b9e5.chunk.js",
+    "static/css/main.8a50d097.chunk.css",
+    "static/js/main.dee91699.chunk.js"
+  ]
+}
