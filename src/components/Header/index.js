@@ -1,48 +1,38 @@
-import React, { useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Container, Nav } from 'react-bootstrap';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React, { useState } from 'react';
+import Navigation from '../Navigation/Navigation';
+import About from "../pages/About";
+import Portfolio from "../pages/Portfolio";
+import Resume from "../pages/Resume";
+import ContactForm from "../pages/Contact";
+import Footer from '../Footer';
 
-
-function Header(props) {
-
-  const {
-    activeTab = [],
-    setCurrentTab,
-    currentTab,
-  } = props;
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentTab.name);
-  }, [currentTab]);
+function Header() {
+  const [activeTab, setActiveTab] = useState("tab1");
+  const renderTab = () => {
+    switch (activeTab) {
+      case 'About':
+        return <About />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <ContactForm />;
+      case 'Resume':
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  };
 
   return (
-    <section>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Mariah Eckrich</Navbar.Brand>
-          <Nav className="me-auto">
-            {activeTab.map((tab) => (
-              <Nav.Link
-                className={`mx-1 ${currentTab.name === tab.name && !'navActive'
-                  }`}
-                key={tab.name}
-              >
-                <span
-                  onClick={() => {
-                    setCurrentTab(tab);
-                  }}
-                >
-                  {capitalizeFirstLetter(tab.name)}
-                </span>
-              </Nav.Link>
-            ))}
-          </Nav>
-        </Container>
-      </Navbar>
+    <section className= "headerSection">
+      <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
+      <main >
+        {renderTab(activeTab)}
+      </main>
+      <Footer  />
+
     </section>
   );
 }
 
 export default Header;
-

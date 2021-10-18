@@ -1,54 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Row, Container, Col } from 'react-bootstrap';
 import './App.css';
-import Header from './components/Header/index.js';
-import About from './components/About/index.js';
-import Footer from './components/Footer/index.js';
-import Project from './components/Project/index.js';
-import ContactForm from './components/Contact/index.js';
+import Header from './components/Header';
+
 
 
 
 function App() {
-  const [activeTab] = useState([
-    {name: 'about Me'},
-    { name: 'portfolio'},
-    { name: 'resume'},
-    { name: 'contact'},
-  ]);
-
-  const [currentTab, setCurrentTab] = useState(activeTab[0]);
   return (
-    <div>
+    <Container className="bg-secondary " md={12}  style={{margin: "0px", maxWidth: "100%"}}>
+      <Row >
+        <main >
+          <Col>
 
-      <Header
-      activeTab={activeTab}
-      setCurrentTab={setCurrentTab}
-      currentTab={currentTab}
-      ></Header>
+            <Header />
 
-      <main>
-{/* {!currentTab ? (
-  <>
-
-  </>
-)
-
-} */}
-
-
-
-
-      <About></About>
-      <Project currentTab={currentTab}></Project>
-      <ContactForm></ContactForm>
-
-      </main>
-
-
-      <Footer></Footer>
-      
-    </div>
+          </Col>
+        </main>
+ 
+      </Row>
+    </Container>
   );
 }
-
 export default App;

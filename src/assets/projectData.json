@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Binge Bucket",
+      "image": "front-page.PNG",
+      "liveLink": "https://whispering-everglades-56821.herokuapp.com/",
+      "githubRepo": "https://github.com/meck512/BingeBucket",
+      "technologies": "https://github.com/meck512/BingeBucket"
+    },
+    {
+      "name": "Impulse Concerts",
+      "image": "ImpulseConcerts.png",
+      "liveLink": "https://meck512.github.io/projectOne/",
+      "githubRepo": "https://github.com/meck512/projectOne",
+      "technologies": ""
+    },
+    {
+      "name": "Run Buddy",
+      "image": "Run-buddy-capture.jpg",
+      "liveLink": "https://meck512.github.io/run-buddy/",
+      "githubRepo": "https://github.com/meck512/run-buddy",
+      "technologies": ""
+    },
+    {
+      "name": "Horiseon Business Marketing",
+      "image": "Horiseon-capture.jpg",
+      "liveLink": "https://meck512.github.io/Horiseon_Business_Marketing/",
+      "githubRepo": "https://github.com/meck512/Horiseon_Business_Marketing",
+      "technologies": ""
+    },
+    {
+      "name": "Robot Gladiators",
+      "image": "placeholder.png",
+      "liveLink": "http://google.com/",
+      "githubRepo": "https://github.com/meck512/robot-gladiators",
+      "technologies": ""
+    },
+    {
+      "name": "Tash Sultana Fanpage",
+      "image": "Tash-sultana-capture.jpg",
+      "liveLink": "https://meck512.github.io/tash-sultana-fanpage/",
+      "githubRepo": "https://github.com/meck512/tash-sultana-fanpage",
+      "technologies": ""
+    }
+  ]
