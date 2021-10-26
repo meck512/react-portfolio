@@ -7,7 +7,7 @@ import ContactForm from "../pages/Contact";
 import Footer from '../Footer';
 
 function Header() {
-  const [activeTab, setActiveTab] = useState("tab1");
+  const [activeTab, setActiveTab] = useState("About");
   const renderTab = () => {
     switch (activeTab) {
       case 'About':

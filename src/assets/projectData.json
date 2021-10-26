@@ -28,10 +28,10 @@
       "technologies": ""
     },
     {
-      "name": "Robot Gladiators",
-      "image": "placeholder.png",
-      "liveLink": "http://google.com/",
-      "githubRepo": "https://github.com/meck512/robot-gladiators",
+      "name": "Book Search Engine",
+      "image": "bookSearchEngineScreenshot.png",
+      "liveLink": "https://mysterious-coast-32932.herokuapp.com/",
+      "githubRepo": "https://github.com/meck512/Book-Search-Engine",
       "technologies": ""
     },
     {
