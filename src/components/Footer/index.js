@@ -10,9 +10,12 @@ function Footer() {
     <section className="footerSection fixed">
 
       <Row className="bg-dark py-2" sm={12}>
-        <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-          <img href="https://github.com/meck512" src={gitHubLogo} style={{ width: "3%" }} alt="Github" />
-          <img href="https://www.linkedin.com/in/mariah-eckrich-b821b6211/" src={linkedInLogo} style={{ width: "3%" }} alt="LinkedIn" />
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+         <a href="https://github.com/meck512"> <img  src={gitHubLogo} style={{ width: "10%" }} alt="Github" />
+         </a>
+         <a href="https://www.linkedin.com/in/mariah-eckrich-b821b6211/">
+          <img src={linkedInLogo} style={{ width: "10%" }} alt="LinkedIn" />
+        </a>
         </div>
       </Row>
 

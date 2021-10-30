@@ -35,10 +35,10 @@
       "technologies": ""
     },
     {
-      "name": "Tash Sultana Fanpage",
-      "image": "Tash-sultana-capture.jpg",
-      "liveLink": "https://meck512.github.io/tash-sultana-fanpage/",
-      "githubRepo": "https://github.com/meck512/tash-sultana-fanpage",
+      "name": "Procrast-A-Date",
+      "image": "LandingPageScreenshot.png",
+      "liveLink": "https://procrasta-date.herokuapp.com/",
+      "githubRepo": "https://github.com/KevinPMyers/Procrasta-Date",
       "technologies": ""
     }
   ]

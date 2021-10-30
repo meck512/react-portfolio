@@ -7,12 +7,12 @@ const Resume = () => {
     // https://docs.google.com/document/d/1kn1hSTBWnbHnRnKhosmI3qx2u2AUNTxR5dnIlcbJX_0/edit?usp=sharing
     <div className="ResumeTab">
       <Row className="mx-auto my-3" style={{ display: 'flex', justifyContent: 'center', maxWidth: "40%" }}>
-        <Button href="https://docs.google.com/document/d/e/2PACX-1vTbZ17wGW9Azl5uJlZ7ZQzrIRapkOTI_F8BLOdePAA6dbhrzx-boNArZuZsE4UJmZTLMvHV2Kd5yzan/pub" variant="dark" className="m-2">Download Resume</Button>
+        <Button href="https://docs.google.com/document/d/e/2PACX-1vTbZ17wGW9Azl5uJlZ7ZQzrIRapkOTI_F8BLOdePAA6dbhrzx-boNArZuZsE4UJmZTLMvHV2Kd5yzan/pub" variant="light" className="m-2">Download Resume</Button>
       </Row>
       <Row  className="mx-auto my-3" style={{ display: 'flex', justifyContent: 'space-around' }}>
-        <Col id={'deckCol'} xs={4}>
+        <Col id={'deckCol'} xs={5}>
 
-          <Card className="my-2 bg-dark text-white">
+          <Card className="my-2 bg-secondary text-white">
             <Card.Body>
               <Card.Text >
                 <h2 style={{ display: 'flex', justifyContent: 'space-around' }}>Frond-End</h2>
@@ -31,8 +31,8 @@ const Resume = () => {
           </Card>
         </Col>
 
-        <Col id={'deckCol'} xs={4}>
-          <Card className="my-2 bg-dark text-white">
+        <Col id={'deckCol'} xs={5}>
+          <Card className="my-2 bg-secondary text-white">
             <Card.Body>
               <Card.Text >
                 <h2 style={{ display: 'flex', justifyContent: 'space-around' }}>Back-End</h2>
@@ -52,26 +52,7 @@ const Resume = () => {
         </Col>
 
 
-        <Col id={'deckCol'} xs={4}>
-          <Card className="my-2 bg-dark text-white">
-            <Card.Body>
-              <Card.Text >
-                <h2 style={{ display: 'flex', justifyContent: 'space-around' }}>More</h2>
-                <div className="my-3">
-                  <Button variant="outline-light" className="m-2">3D Printing and Customization</Button>
-                  {/* <Button variant="outline-light">Dark</Button>
-                <Button variant="outline-light">Dark</Button>
-                <Button variant="outline-light">Dark</Button>
-                <Button variant="outline-light">Dark</Button>
-                <Button variant="outline-light">Dark</Button>
-                <Button variant="outline-light">Dark</Button>
-                <Button variant="outline-light">Dark</Button> */}
-                </div>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-
+        
       </Row>
 
     </div>
